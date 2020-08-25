@@ -1,0 +1,359 @@
+
+header .navbar-steven .navbar-collapse {
+    justify-content: flex-end;
+}
+/*
+header .navbar-steven .navbar-collapse li a{
+    color: #000000;
+    font-size: 30px;
+    position: relative;
+
+  
+   
+    word-spacing: -5px;
+}
+
+@media (min-width: 25px) and (max-width: 450px) {
+    header .navbar-steven{
+    }
+    header .navbar-brand img {
+      width:15px;
+}
+    }
+
+.nav-link {
+    padding-right: 4.5rem;
+    padding-left: .5rem;
+}
+.navbar-brand img{
+        margin-top: 31px;
+    max-width: 190px;
+    margin-left: 92px;
+}
+@media (min-width: 20px) and (max-width: 450px) {
+.navbar-steven .navbar-brand {
+    padding-left: 16px;
+    margin-top: 150px;
+}
+.navbar-brand img {
+    margin-top: -15px;
+    max-width: 155px;
+    margin-left: -68px;
+}
+}
+/*------------------------------------------------------------------------------
+.navbar-steven{
+    max-height: 108px
+}*//**/ 
+body .row{
+    margin-left:-39px;
+}
+
+.text-center{
+    text-align:center!important;
+    padding:77px;
+}
+.text-center p{
+    padding:98px;
+}
+.service-item img{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 221px;
+    padding-left: 23px;
+    /* margin: 150px; */
+    margin: auto;
+    margin-left: 36px;
+}
+/*--------------------------------------------------------------------------
+Carousel*/
+
+.section-padding  .service-item1 img{
+    max-width: 150px
+}
+.section-padding  .service-item2 img{
+    max-width: 150px
+}
+.section-padding  .service-item3 img{
+    max-width: 150px
+}
+/*
+------------------------------------------------------------------------------
+Imagenes1*/
+/**/
+body  #row-3 img{
+    max-width: 157px;
+    height: 234px;
+    margin-bottom: 148px;
+    position: relative;
+    left: 130px;
+}
+/*------------------------------------------------------------------------------
+Nuestros Servicios*/
+body .imagen-2 img{
+        margin-top: -196px;
+        margin-left:    111px;
+        max-width:  908px;
+    }
+/*------------------------------------------------------------------------------- 
+Imagenes nuestros servicios*//*
+@media (min-width: 768px) and (max-width: 968px) {
+    body .imagen-nosotros .col-md-4 img{
+        max-width: 15px;
+    }
+
+}*/
+body .imagen-nosotros img{
+    max-width:  220px
+}
+body .imagen-nosotros .col-md-4 p{
+  padding-right: 35px;
+    margin-left: 40px;
+    position: absolute;
+    top: -17px;
+    left: 29px;
+    text-align: center;
+}
+body .imagen-nosotros .col-md-4 img{
+    margin-left:88px;
+    
+        margin-left: 84px;
+        margin-top: -5px;
+    
+}
+body .imagen-nosotros .col p{
+     position: absolute;
+    top: -12px;
+    left: 28px;
+    text-align: center;
+    padding-left: 2px;
+}
+
+body .imagen-nosotros .col img {
+        position:absolute; 
+        top:-3px;
+}
+body #Text3{
+    text-align: center;
+}
+body #Text3 img{
+    max-width: 980px;
+    margin-top: -110px
+
+}
+/*
+body .imagen1{
+    margin-left: 150px;
+}
+body .cirdos{
+    margin-left: 150px;
+}
+body .cirtres{
+    margin-left:150px;
+}
+body #Textseccion{
+    text-align:center;
+}
+/*------------------------------------------------------------------------------
+Equipo de trabajo
+*//*
+}
+*/
+body #imgh{
+    
+    width: 100%;
+    position: absolute;
+   
+    margin-top: 15px;
+    height: 1045px;
+}
+
+body .equipo-trabajo{
+    color:  red;
+
+   /* background:url(../img/Capa-3.png) no-repeat;
+    background-size:    1040px;
+    max-width:  1040px;*/
+}
+body .equipo-trabajo p{
+        position: absolute;
+    left: 598px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 15px;
+}
+body .equipo-trabajo img{
+        position: relative;
+    top: 92px;
+    left: 122px;
+    padding-bottom: 33px;
+}
+
+@media (min-width: 981px) and (max-width: 2500px) {
+        body .equipo-trabajo{
+            max-width:  1500px;
+        }
+    }
+/*----------------------------------------------------------------------------------------------------------------------
+Footer
+#footer{
+    background: #000000;
+
+}
+body .pie-pagina #col32 p{
+    position: relative;
+    left:132px;
+}
+body .pie-pagina #col32{
+    position: relative; 
+    left: 247px;
+
+}
+body .pie-pagina #col34{
+    position: relative;
+    right: 269px;
+}
+body .pie-pagina #col35{
+    position:relative;
+    right:126px;
+}
+body  .pie-pagina p{
+    color: #fff;
+    position: relative;
+    top: 156px;
+    left: 97px;
+}
+body .pie-pagina img{
+    max-width: 150px;
+    margin-top:167px;
+}
+body .pie-pagina #col34{
+    margin-top:22px;
+}*/
+footer{
+    width: 100%;
+    background: #330000;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family:verdana;
+    padding-top: 118px;
+     text-align: center;
+  }
+
+  footer #contacto1{
+      font-size: 20px;
+  }
+  footer   #logito1 img{
+      max-width: 190px;
+  }
+  
+/*
+---------------------------------------------------------------------------------*/
+/*
+
+*/
+@media (min-width: 981px) and (max-width: 2500px) {
+    header .navbar-steven{
+    max-height: 150px;
+    
+
+}
+
+}
+@media (min-width: 768px) and (max-width: 980px) {
+    body  #row-3 img {
+     
+        width:82%;
+        max-width: 139px;
+        height: 203px;
+        margin-bottom: 148px;
+        position: relative;
+        left: 60px;
+    }
+    body #imagen-nosotros{
+        max-width: 683px;
+    margin-right: 127px;
+        margin-top: 45px;
+}
+    
+    body .imagen-nosotros .col img {
+        position: absolute;
+        top: 30px;
+        left: -7px;
+    }
+    body .imagen-nosotros .col-md-4 img {
+        margin-left: 24px;
+        margin-top: 28px;
+    }
+    body .equipo-trabajo {
+        /* color: red; */
+        /* background: url(../img/Capa-3.png) no-repeat; */
+        background-size: 0px;
+        max-width: 1040px;
+    }
+}
+@media (min-width: 451px) and (max-width: 767px){
+    body .imagen-nosotros .col img {
+        position: absolute;
+        top: 30px;
+        left: -19px;
+    }
+    body .imagen-nosotros .col-md-4 img {
+        margin-left: 131px;
+    }
+    body .imagen-nosotros .col-md-4 p {
+        padding-right: 35px;
+        margin-left: 64px;
+        position: absolute;
+        top: -17px;
+        left: 29px;
+        text-align: center;
+    }
+    body #imgh {
+        width: 100%;
+        
+        margin-top: 318px;
+        height: 1045px;
+        max-width: 100%;
+    } 
+    body .equipo-trabajo img {
+        max-width: 54%;
+        padding-top: 117%;
+        padding-left: 17%;
+        /* margin-right: -42%; */
+        margin-left: -39%;
+    }
+}
+
+@media (min-width: 20px) and (max-width: 450px) {
+img{
+    width:100%;
+    margin-top:20px;
+}
+body #imagen-nosotros{
+    font-size: 5px;
+    padding: 64px;
+
+}
+body .container #texto2 {
+
+        padding-left: 83px;
+        margin-left: -82px;
+    }
+    body #imagen-nosotros {
+        font-size: 5px;
+        padding: 64px;
+        margin-left: -44px;
+    }
+
+body #row-3 img {
+    max-width: 157px;
+    height: 234px;
+    margin-bottom: 148px;
+    /* position: relative; */
+    /* left: 130px; */
+}
+}
+
