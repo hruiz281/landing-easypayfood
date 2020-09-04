@@ -2,53 +2,32 @@
 header .navbar-steven .navbar-collapse {
     justify-content: flex-end;
 }
-/*
-header .navbar-steven .navbar-collapse li a{
-    color: #000000;
-    font-size: 30px;
-    position: relative;
-
-  
-   
-    word-spacing: -5px;
+html {
+    overflow-x: hidden;
 }
 
-@media (min-width: 25px) and (max-width: 450px) {
-    header .navbar-steven{
-    }
-    header .navbar-brand img {
-      width:15px;
-}
-    }
-
-.nav-link {
-    padding-right: 4.5rem;
-    padding-left: .5rem;
-}
-.navbar-brand img{
-        margin-top: 31px;
-    max-width: 190px;
-    margin-left: 92px;
-}
-@media (min-width: 20px) and (max-width: 450px) {
-.navbar-steven .navbar-brand {
-    padding-left: 16px;
-    margin-top: 150px;
-}
-.navbar-brand img {
-    margin-top: -15px;
-    max-width: 155px;
-    margin-left: -68px;
-}
-}
 /*------------------------------------------------------------------------------
-.navbar-steven{
-    max-height: 108px
-}*//**/ 
+*/ 
+
+header .navbar-steven{
+    background: rgba(51, 0, 0, .2);
+    padding: 20px;
+    margin-top: -55px;
+    margin-bottom: -85px;
+}
+  
 body .row{
     margin-left:-39px;
-}
-
+}/*
+  
+body .row{
+    margin-left:-39px;
+}/*
+#img1 img {
+    max-width: 100%;
+    width: 63%;
+    padding: 24px 74px;
+}*/
 .text-center{
     text-align:center!important;
     padding:77px;
@@ -59,7 +38,7 @@ body .row{
 .service-item img{
     vertical-align: middle;
     border-style: none;
-    max-width: 221px;
+    max-width: 221%;
     padding-left: 23px;
     /* margin: 150px; */
     margin: auto;
@@ -69,96 +48,84 @@ body .row{
 Carousel*/
 
 .section-padding  .service-item1 img{
-    max-width: 150px
+    max-width: 150%
 }
 .section-padding  .service-item2 img{
-    max-width: 150px
+    max-width: 150%
 }
 .section-padding  .service-item3 img{
-    max-width: 150px
+    max-width: 150%
+}
+/* Boton y texto*/
+#carrousel-img .texto-center {
+    text-align: center;
+    position: relative;
+    bottom: 247px;
+    color: #fff;
+}
+    body #carrousel-img .text-header .btn-warning {
+        /* left: 44%; */
+        margin-left: 129px;
+        margin-top: 45px;
+        border-radius: 9px;
+    
+} 
+/*Textos*/
+#row .text-center{
+    margin-top:-209px;
 }
 /*
 ------------------------------------------------------------------------------
 Imagenes1*/
 /**/
 body  #row-3 img{
-    max-width: 157px;
-    height: 234px;
-    margin-bottom: 148px;
+    max-width: 100%;
+    /* margin-bottom: -97px; */
     position: relative;
-    left: 130px;
+    left: 59px;
+    height: 295px;
+    width: 79%;
+    /* padding-bottom: 103px; */
+    vertical-align: middle;
 }
 /*------------------------------------------------------------------------------
 Nuestros Servicios*/
 body .imagen-2 img{
         margin-top: -196px;
         margin-left:    111px;
-        max-width:  908px;
+        max-width:  908%;
+    }
+    #Servicios12  .servicios3 img{
+        max-width: 100%;
     }
 /*------------------------------------------------------------------------------- 
 Imagenes nuestros servicios*//*
-@media (min-width: 768px) and (max-width: 968px) {
-    body .imagen-nosotros .col-md-4 img{
-        max-width: 15px;
-    }
-
-}*/
-body .imagen-nosotros img{
-    max-width:  220px
-}
-body .imagen-nosotros .col-md-4 p{
-  padding-right: 35px;
-    margin-left: 40px;
-    position: absolute;
-    top: -17px;
-    left: 29px;
+*/
+#seccionnosotros .servicios12 img{
     text-align: center;
 }
-body .imagen-nosotros .col-md-4 img{
-    margin-left:88px;
-    
-        margin-left: 84px;
-        margin-top: -5px;
-    
-}
-body .imagen-nosotros .col p{
-     position: absolute;
-    top: -12px;
-    left: 28px;
+
+#seccionnosotros  p{
     text-align: center;
-    padding-left: 2px;
+    margin-top: -23px;
 }
 
-body .imagen-nosotros .col img {
-        position:absolute; 
-        top:-3px;
+#seccionnosotros .Circ2  img{
+    max-width: 100%;
+    width: 50%;
+    position: relative;
+    left: 130px;
 }
-body #Text3{
-    text-align: center;
-}
-body #Text3 img{
-    max-width: 980px;
-    margin-top: -110px
 
-}
-/*
-body .imagen1{
-    margin-left: 150px;
-}
-body .cirdos{
-    margin-left: 150px;
-}
-body .cirtres{
-    margin-left:150px;
-}
-body #Textseccion{
-    text-align:center;
-}
+
 /*------------------------------------------------------------------------------
 Equipo de trabajo
-*//*
-}
 */
+
+#equipo-trabajo .cont-text{
+    text-align: center;
+    color:#fff;
+}
 body #imgh{
     
     width: 100%;
@@ -168,21 +135,18 @@ body #imgh{
     height: 1045px;
 }
 
-body .equipo-trabajo{
-    color:  red;
+ 
+    
 
-   /* background:url(../img/Capa-3.png) no-repeat;
-    background-size:    1040px;
-    max-width:  1040px;*/
-}
-body .equipo-trabajo p{
-        position: absolute;
-    left: 598px;
-    text-align: center;
-    font-size: 35px;
-    color: #fff;
-    margin-top: 15px;
-}
+    #equipo-trabajo {
+        background: url(../img/nuestros\ servicios.jpeg) no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+body #equipo-trabajo  .container h2{
+     text-align: center ;}
+
 body .equipo-trabajo img{
         position: relative;
     top: 92px;
@@ -190,47 +154,8 @@ body .equipo-trabajo img{
     padding-bottom: 33px;
 }
 
-@media (min-width: 981px) and (max-width: 2500px) {
-        body .equipo-trabajo{
-            max-width:  1500px;
-        }
-    }
-/*----------------------------------------------------------------------------------------------------------------------
-Footer
-#footer{
-    background: #000000;
-
-}
-body .pie-pagina #col32 p{
-    position: relative;
-    left:132px;
-}
-body .pie-pagina #col32{
-    position: relative; 
-    left: 247px;
-
-}
-body .pie-pagina #col34{
-    position: relative;
-    right: 269px;
-}
-body .pie-pagina #col35{
-    position:relative;
-    right:126px;
-}
-body  .pie-pagina p{
-    color: #fff;
-    position: relative;
-    top: 156px;
-    left: 97px;
-}
-body .pie-pagina img{
-    max-width: 150px;
-    margin-top:167px;
-}
-body .pie-pagina #col34{
-    margin-top:22px;
-}*/
+/*Footer ------------------------------------
+*/
 footer{
     width: 100%;
     background: #330000;
@@ -248,21 +173,19 @@ footer{
   footer   #logito1 img{
       max-width: 190px;
   }
+  #Maps1 img{
+    max-width: 100%;
+    width: 69%;
+}
   
 /*
 ---------------------------------------------------------------------------------*/
 /*
 
 */
-@media (min-width: 981px) and (max-width: 2500px) {
-    header .navbar-steven{
-    max-height: 150px;
-    
 
-}
 
-}
-@media (min-width: 768px) and (max-width: 980px) {
+@media (min-width: 768px) and (max-width: 990px) {
     body  #row-3 img {
      
         width:82%;
@@ -273,7 +196,7 @@ footer{
         left: 60px;
     }
     body #imagen-nosotros{
-        max-width: 683px;
+        max-width: 100%;
     margin-right: 127px;
         margin-top: 45px;
 }
@@ -289,71 +212,283 @@ footer{
     }
     body .equipo-trabajo {
         /* color: red; */
-        /* background: url(../img/Capa-3.png) no-repeat; */
-        background-size: 0px;
-        max-width: 1040px;
-    }
-}
-@media (min-width: 451px) and (max-width: 767px){
-    body .imagen-nosotros .col img {
-        position: absolute;
-        top: 30px;
-        left: -19px;
-    }
-    body .imagen-nosotros .col-md-4 img {
-        margin-left: 131px;
-    }
-    body .imagen-nosotros .col-md-4 p {
-        padding-right: 35px;
-        margin-left: 64px;
-        position: absolute;
-        top: -17px;
-        left: 29px;
-        text-align: center;
-    }
-    body #imgh {
-        width: 100%;
-        
-        margin-top: 318px;
-        height: 1045px;
+        background: url(../img/Capa-3.png) no-repeat; 
+        background-size: cover;
         max-width: 100%;
-    } 
-    body .equipo-trabajo img {
-        max-width: 54%;
-        padding-top: 117%;
-        padding-left: 17%;
-        /* margin-right: -42%; */
-        margin-left: -39%;
+    }
+    body #carrousel-img .textobienvenidos h1 {
+        text-align: center;
+        color: #ffff;
+        font-size: 28px;
+    }
+    body #carrousel-img .textobienvenidos .btn-warning {
+        /* left: 44%; */
+        margin-left: 54px;
+        margin-top: 43px;
+        border-radius: 9px;
     }
 }
-
-@media (min-width: 20px) and (max-width: 450px) {
-img{
-    width:100%;
-    margin-top:20px;
-}
-body #imagen-nosotros{
-    font-size: 5px;
-    padding: 64px;
-
-}
-body .container #texto2 {
-
-        padding-left: 83px;
-        margin-left: -82px;
+/*@media (min-width: 451px) and (max-width: 767px){
+}*/
+@media (min-width: 1800px) and (max-width: 2900px){
+    body{
+        max-width: 100%;
     }
-    body #imagen-nosotros {
-        font-size: 5px;
-        padding: 64px;
-        margin-left: -44px;
+    #carrousel-img .texto-center {
+        text-align: center;
+        position: relative;
+        bottom: 563px;
+        color: #fff;
+    }
+   
+    #seccionnosotros .servicios13 img {
+        max-width: 100%;
+        width: 51%;
+        margin-left: 0%;
+        /* margin-top: 0; */
+        margin-bottom: -109px;
+    }
+    #seccionnosotros p {
+        text-align: center;
+        margin-top: -16px;
+        position: relative;
+        top: 60px;
+       
+        padding-bottom: -24px;
+    }
+    #fetre p{
+        top:-27px;
+    }
+    #equipo-trabajo .row{
+        margin-left:423px;
+    }
+    body #carrousel-img .textobienvenidos h1 {
+        text-align: center;
+        color: #ffff;
+        font-size: 82px;
+    }
+    body #carrousel-img .textobienvenidos .btn-warning {
+        /* left: 44%; */
+        margin-left: 156px;
+        margin-top: 45px;
+        /* border-radius: 9px; */
+        padding: 16px 34px 17px;
+        border-radius: 28px;
+        font-size: 37px;
+    }
+    .navbar-steven{
+    margin: -67px;
+ 
+    MARGIN-RIGHT: 5PX;
+}
+}
+    
+/* */ 
+@media (min-width: 521px) and (max-width: 989px){
+    body #row-3 img {
+        max-width: 88%;
+        /* margin-bottom: -97px; */
+        position: relative;
+        left: 81px;
+        height: 75%;
+        width: 79%;
+        padding-bottom: 103px;
+        vertical-align: middle;
+    }
+    header .navbar-steven{
+        padding-bottom:108px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    #equipo-trabajo {
+        background-size: cover;
+        padding-left: 95px;
+    }
+    #seccionnosotros p {
+        text-align: center;
+        margin-top: -23px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        padding: 0 0 0 27%;
+    }
+    #Servicios12  .servicios3 img{
+        max-width: 100%;
+    }
+   .container .cont-equipo *, ::after, ::before {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    footer #contacto1 {
+        font-size: 11px;
+    }
+    #seccionnosotros .servicios13 img {
+        max-width: 100%;
+        width: 69%;
+        margin-left: -6% !important;
+        /* margin-top: 0; */
+        margin-bottom: -109px;
+    }
+    #seccionnosotros .servicios13 img {
+        max-width: 100%;
+        width: 69%;
+        margin-left: 15%;
+        /* margin-top: 0; */
+        margin-bottom: 0%;
+    }
+    footer  .container .row .Maps  img{
+        max-width: 100%;
+    }
+     header .navbar-steven  {
+        
+        margin-bottom: -10%;
+        margin-top: -8%;
+    }
+    #equipo-trabajo .cont-text h2{
+        text-align: center;
+        color:#fff ;
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 520px) {
+    html {
+        overflow-x: hidden;
+    }
+    #Servicios12 .servicios3 img {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    #seccionnosotros p {
+        text-align: center;
+        text-align: center;
+        padding: 6%;
+        margin-bottom: 59px;
+    }
+    header .navbar-steven{
+        
+            background: rgba(51, 0, 0, .2);
+            padding: 20px;
+            /* margin-top: -55px; */
+            /* margin-bottom: -85px; */
+            margin-top: 0;
+            margin-bottom: 0%;
+        }
+        
+        
+        .container .row .cont-equipo img{
+            max-width: 97%;
+    padding-left: 49px;
+}
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        margin-left: 37%;
+        margin-top: -26%;
+    }
+    #equipo-trabajo .cont-text h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        margin-right: 62px;
+    }
+    #seccionnosotros .Circ2 img {
+        max-width: 100%;
+        width: 50%;
+        position: relative;
+        left: 26%;
+        margin-top: -80px;
+    }
+    #seccionnosotros .servicios13 img {
+        max-width: 100%;
+        
+        margin-top: -106px;
+        margin-bottom: 4%;
+        max-height: 195px;
+    }
+    body .imgh .equipo-trabajo #equipo1 img{
+        max-width: 100%;
+        background-size: cover;
+    }
+    #seccionnosotros .servicios13{
+        margin-bottom: 57px;
     }
 
+#equipo-trabajo {
+    background-size: cover;
+    padding-left: 95px;
+}
+body #equipo-trabajo .container h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    margin-right: 92px;
+}
+footer #contacto1 {
+    font-size: 16px;
+}
 body #row-3 img {
-    max-width: 157px;
-    height: 234px;
-    margin-bottom: 148px;
-    /* position: relative; */
-    /* left: 130px; */
+    max-width: 100%;
+    /* margin-bottom: -97px; */
+    position: relative;
+    left: 38%;
+    /* height: 295px; */
+    width: 41%;
+    padding-bottom: 103px;
+    /* vertical-align: middle; */
+    
 }
+#texto1{
+    margin-top:0 !important     ; 
 }
-
+.text-center p {
+    
+        padding: 8%;
+        margin-left: 15%;
+    }
+    #texto1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 14%;
+        margin-top: -229px;
+     
+    }
+    .container .row .cont-equipo *, ::after, ::before {
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: -1%;
+        padding-left: -7%;
+        padding-right: 12%;
+        margin-left: -12%;
+    }
+    #img1 img{
+        max-width: 100%;
+        width: 40%;
+        padding: 0px 10%;
+    }
+ 
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        margin-left: 79%;
+        margin-top: -71px;
+    }
+    #seccionnosotros  p {
+        text-align: center;
+       
+            text-align: center;
+            padding: 7%;
+        }   
+        #carrousel-img .texto-center h1 {
+            font-size: 25px;
+            padding-top: 85px;
+        }
+        
+   #Maps1  img{
+            max-width: 100%;
+    margin-left: 10px;
+    width: 72%;
+    }
+        }
+    
+    
+    
